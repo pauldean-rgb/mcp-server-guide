@@ -233,3 +233,11 @@ Load these as needed based on what your task involves:
 ## 10. Snippet examples
 
 You will see snippets throughout documentation here. These snippets contain useful plugin API code that can be repurposed. Use them as is, or as starter code as you go. If there are key concepts that are best documented as generic snippets, call them out and write to disk so you can reuse in the future.
+
+## Example: Skill test
+
+An example `use_figma` script that creates a new page called "Skill test" and a simple pricing card (auto layout) lives in the repo at:
+
+`figma-power/skill-test-create-pricing-card.use_figma.js`
+
+Run it via the `use_figma` tool with `skillNames: "figma-use"` to create the page and return the created node IDs.
